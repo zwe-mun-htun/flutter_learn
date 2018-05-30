@@ -1,13 +1,16 @@
 import 'package:flutter/material.dart';
-//import 'widget_overview.dart';
+import 'widget_overview.dart';
 import 'handle_gestures.dart';
+import 'using_theme.dart';
+import 'load_json.dart';
+
+//void main()=>runApp(new MyApp());
+
 
 void main()=>runApp(new MaterialApp(
   theme: new ThemeData(
-    primaryColor: Colors.green,
+    primaryColor: Colors.pink,
   ),
-  debugShowCheckedModeBanner: false,
-  //home: new HomePage(),
-  home: new MyButton(),
-));
 
+  home: new LoadJsonPage(),
+));

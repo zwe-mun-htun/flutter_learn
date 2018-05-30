@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:transparent_image/transparent_image.dart';
 
 class HomePage extends StatelessWidget{
 
@@ -24,7 +25,11 @@ class HomePage extends StatelessWidget{
       ),
 
       body: new Center(
-        child: new Text('Hello, World'),
+        child: new FadeInImage.memoryNetwork(
+          placeholder: kTransparentImage,
+          image:
+          'https://github.com/flutter/website/blob/master/_includes/code/layout/lakes/images/lake.jpg?raw=true',
+        ),
       ),
 
       floatingActionButton: new FloatingActionButton(

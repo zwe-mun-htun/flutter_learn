@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "post_title": "Scenic Shan State",
+    "post_desc": "Delicious cuisine and scenery both come from Shan State, Myanmar. Saturated greens blend with vibrant valleys as fields upon fields run alongside tiny villages overflowing with rural life. There’s much to discover in Shan State.\n\nPerhaps one of the most isolated must-see attractions, Keng Tawng Falls, still goes mostly unnoticed by tourists due to its remoteness. Arrange a private vehicle and pack a lunch for a picnic as the nearest town is approximately 15 miles away. Heading to Keng Tawng from Taunggyi may take up to five hours by car.",
+    "user_id": "4",
+    "photo": "5035482.jpg",
+    "updated_at": "2018-05-08 04:56:25",
+    "created_at": "2018-05-08 04:56:25"
+  },
+  {
+    "id": 2,
+    "post_title": "The view of Bagan from the basket of a hot air balloon",
+    "post_desc": "Few scenes compare to the view of Bagan, Myanmar, from the basket of a hot air balloon high above. An aerial shot of the region provides a better glimpse of its historic vastness. Bagan’s thousands of ancient temples and pagodas can be seen dotting the landscape every which way.",
+    "user_id": "4",
+    "photo": "1271981.jpg",
+    "updated_at": "2018-05-08 05:31:39",
+    "created_at": "2018-05-08 05:31:39"
+  },
+  {
+    "id": 3,
+    "post_title": "Shwedagon Pagoda",
+    "post_desc": "No visit to Yangon is complete without a visit to one of the most famous pagodas in the world. It is like the Eiffel Tower of Yangon—Yangon being the main commercial city of Myanmar. This massive golden icon can be seen from most rooftops in the city. In fact, many clubs and bars seek out prime rental spaces and shell out extra money for a view of this place. It is a symbol of pride for the people of Myanmar.\n\nA visit here is absolutely breathtaking and magical. There are four entrances, each leading up a flight of steps to the pagoda’s platform. There are also eight planetary posts, one for each day of the week (Wednesday is split in two). Burmese Buddhists will go pray at the respective post where they were born. Each planetary post is ruled by an animal—garuda for Sunday, tiger for Monday, lion for Tuesday, tusked elephant for Wednesday morning, tuskless elephant for Wednesday afternoons, mouse for Thursday, guinea pig for Friday and naga for Saturday. The price for the pagoda is 8,000 kyats (US$6) for foreigners, and opening hours are 04:00 – 22:00 hrs (seven days a week).",
+    "user_id": "4",
+    "photo": "3643702.jpg",
+    "updated_at": "2018-05-09 15:12:02",
+    "created_at": "2018-05-09 15:12:02"
+  },
+  {
+    "id": 4,
+    "post_title": "Ayeyarwady River Cruise",
+    "post_desc": "Myanmar’s longest river, the Ayeyarwady, also known as the Irawaddy, begins high in the Himalayas, carving Myanmar in half on its way to the Andaman Sea. It is navigable by large ships and boats in the lower elevations, and is fast becoming a popular river cruise destination. Cruises run between Mandalay and Bagan; both cities offer plenty of temples, pagodas and statues of Buddha. Between the two terminals, cruisers will see river villages and beakless dolphins, and travel through jungles and deep gorges.",
+    "user_id": "4",
+    "photo": "6500074.jpg",
+    "updated_at": "2018-05-09 15:24:13",
+    "created_at": "2018-05-09 15:24:13"
+  },
+  {
+    "id": 5,
+    "post_title": "Shwenandaw Monastery",
+    "post_desc": "Shwenandaw Monastery is an historic Buddhist monastery in the city of Mandalay. Known as the Golden Palace, this important building is located in central Myanmar. It was originally part of the Mandalay Palace complex as the royal apartment of a king, but his son moved it outside the palace after his death believing it was haunted by the king’s spirit. It later became a monastery. At one time, the building was covered in gold but the gold is mostly inside now. The exterior is covered with ornate teak carvings representing Buddhist myths. Ornate carvings made from other materials such as stone can be found throughout the structure.",
+    "user_id": "4",
+    "photo": "8174678.jpg",
+    "updated_at": "2018-05-09 15:25:29",
+    "created_at": "2018-05-09 15:25:29"
+  },
+  {
+    "id": 6,
+    "post_title": "Ngapali",
+    "post_desc": "Shwenandaw Monastery is an historic Buddhist monastery in the city of Mandalay. Known as the Golden Palace, this important building is located in central Myanmar. It was originally part of the Mandalay Palace complex as the royal apartment of a king, but his son moved it outside the palace after his death believing it was haunted by the king’s spirit. It later became a monastery. At one time, the building was covered in gold but the gold is mostly inside now. The exterior is covered with ornate teak carvings representing Buddhist myths. Ornate carvings made from other materials such as stone can be found throughout the structure.",
+    "user_id": "4",
+    "photo": "3867497.jpg",
+    "updated_at": "2018-05-09 15:26:14",
+    "created_at": "2018-05-09 15:26:14"
+  },
+  {
+    "id": 7,
+    "post_title": "Mrauk U",
+    "post_desc": "Mrauk U is an important archeological town. It was originally thought to be a fortress because of the thick walls, but the walls were made to protect temples from the fierce winds, not invaders. Stone temples can be found throughout the area. The medieval town was once an important Arakan capital and was an important trading city. Getting to this remote location involves a four- to seven-hour boat ride up a tributary of the Kaladan River. Travelers may want to bring rain gear at the region gets almost 1.2 meter (4 feet) of rain annually.",
+    "user_id": "4",
+    "photo": "6921095.jpg",
+    "updated_at": "2018-05-09 15:27:03",
+    "created_at": "2018-05-09 15:27:03"
+  },
+  {
+    "id": 8,
+    "post_title": "Shwedagon Pagoda",
+    "post_desc": "No visit to Yangon is complete without a visit to one of the most famous pagodas in the world. It is like the Eiffel Tower of Yangon—Yangon being the main commercial city of Myanmar. This massive golden icon can be seen from most rooftops in the city. In fact, many clubs and bars seek out prime rental spaces and shell out extra money for a view of this place. It is a symbol of pride for the people of Myanmar.",
+    "user_id": "4",
+    "photo": "3517503.jpg",
+    "updated_at": "2018-05-11 16:10:20",
+    "created_at": "2018-05-11 16:10:20"
+  }
+]
