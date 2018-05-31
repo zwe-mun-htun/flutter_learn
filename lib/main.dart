@@ -10,7 +10,7 @@ import 'fetch_data.dart';
 
 void main()=>runApp(new MaterialApp(
   theme: new ThemeData(
-    primaryColor: Colors.pink,
+    primaryColor: Colors.green,
   ),
   debugShowCheckedModeBanner: false,
   home: new FDHomePage(),

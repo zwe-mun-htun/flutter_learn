@@ -44,24 +44,42 @@ class FDHomePageState extends State<FDHomePage>{
     final String img_url = 'http://api.sharmal.com/diymm/public/upload/';
     return new Scaffold(
       appBar: new AppBar(
-        title: new Text('Blah Blah'),
+        leading: new IconButton( icon: new Icon(
+            Icons.menu,
+            color: Colors.white),
+            onPressed: null),
+
+        title: new Text('DM'),
+
+        actions: <Widget>[
+          new IconButton(
+              icon: new Icon(
+                  Icons.search,
+                  color: Colors.white),
+              onPressed: null),
+        ],
       ),
       body: new ListView.builder(
           itemCount: data == null ? 0 : data.length,
       itemBuilder: (BuildContext context, int index){
-            return new Container(
-              child: new Center(
-                child: new Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: <Widget>[
-                    new Text(data[index]['post_title']),
-                    new Image.network(img_url + data[index]['photo']),
-                    new Text(data[index]['post_desc']),
-                  ],
-                ),
-              ),
-            );
+        return new Card(
+          child: new Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: <Widget>[
+              new Text(data[index]['post_title'], style: new TextStyle(fontSize: 15.0),),
+              new Image.network(img_url + data[index]['photo']),
+              new Text(data[index]['post_desc'], maxLines: 2,),
+            ],
+
+          ),
+          elevation: 1.0,
+        );
       },
+      ),
+      floatingActionButton: new FloatingActionButton(
+        child: new Icon(Icons.add),
+        onPressed: null,
+        backgroundColor: Colors.green,
       ),
     );
   }
