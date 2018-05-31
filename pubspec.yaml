@@ -29,30 +29,26 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/a.jpg
+    - assets/background.jpg
     - assets/json/test.json
 
-  # An image asset can refer to one or more resolution-specific "variants", see
-  # https://flutter.io/assets-and-images/#resolution-aware.
+  fonts:
+      - family: Lora
+        fonts:
+          - asset: assets/fonts/Lora/Lora-Regular.ttf
+          - asset: assets/fonts/Lora/Lora-Italic.ttf
 
-  # For details regarding adding assets from package dependencies, see
-  # https://flutter.io/assets-and-images/#from-packages
+      - family: Montserrat
+        fonts:
+          - asset: assets/fonts/Montserrat/Montserrat-Bold.ttf
+          - asset: assets/fonts/Montserrat/Montserrat-Regular.ttf
 
-  # To add custom fonts to your application, add a fonts section here,
-  # in this "flutter" section. Each entry in this list should have a
-  # "family" key with the font family name, and a "fonts" key with a
-  # list giving the asset and other descriptors for the font. For
-  # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
-  #
-  # For details regarding fonts from package dependencies,
-  # see https://flutter.io/custom-fonts/#from-packages
+      - family: Oxygen
+        fonts:
+          - asset: assets/fonts/Oxygen/Oxygen-Regular.ttf
+          - asset: assets/fonts/Oxygen/Oxygen-Bold.ttf
+
+      - family: Source_Sans_Pro
+        fonts:
+          - asset: assets/fonts/Source_Sans_Pro/SourceSansPro-Regular.ttf
+          - asset: assets/fonts/Source_Sans_Pro/SourceSansPro-Italic.ttf

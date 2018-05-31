@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'dart:async';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
+import 'package:transparent_image/transparent_image.dart';
 
 class FDHomePage extends StatefulWidget{
 
@@ -27,8 +28,6 @@ class FDHomePageState extends State<FDHomePage>{
       headers: {"Accept": "application/json"},
       body: {"token": "jBgCNm8L9JlFrgbskENgVaxt5cP7MPlAUjb71UkY"}
       );
-
-    print(response.body);
 
     setState(() {
       var convertDataToJson = JSON.decode(response.body);
@@ -59,6 +58,7 @@ class FDHomePageState extends State<FDHomePage>{
               onPressed: null),
         ],
       ),
+
       body: new ListView.builder(
           itemCount: data == null ? 0 : data.length,
       itemBuilder: (BuildContext context, int index){
@@ -66,11 +66,13 @@ class FDHomePageState extends State<FDHomePage>{
           child: new Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
-              new Text(data[index]['post_title'], style: new TextStyle(fontSize: 15.0),),
-              new Image.network(img_url + data[index]['photo']),
-              new Text(data[index]['post_desc'], maxLines: 2,),
+              new Text(data[index]['post_title'], style: new TextStyle(fontFamily: 'Oxygen', fontSize: 18.0),),
+              new FadeInImage(
+                placeholder: new AssetImage('assets/images/background.jpg'),
+                image: new NetworkImage(img_url + data[index]['photo']),
+              ),
+              new Text(data[index]['post_desc'], maxLines: 2, style: new TextStyle(fontFamily: 'Oxygen'),),
             ],
-
           ),
           elevation: 1.0,
         );
