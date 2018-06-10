@@ -48,7 +48,7 @@ class FDHomePageState extends State<FDHomePage>{
             color: Colors.white),
             onPressed: null),
 
-        title: new Text('DM'),
+        title: new Text('The Movie'),
 
         actions: <Widget>[
           new IconButton(

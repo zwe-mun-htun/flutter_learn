@@ -8,10 +8,8 @@ class HomePage extends StatelessWidget{
     return new Scaffold(
       appBar: new AppBar(
 
-        leading: new IconButton( icon: new Icon(
-            Icons.menu,
-            color: Colors.white),
-            onPressed: null),
+        leading: new IconButton(icon: new Icon(Icons.menu, color: Colors.white ,)
+          ,onPressed: null,),
 
         title: new Text('Example Title'),
 
@@ -25,11 +23,7 @@ class HomePage extends StatelessWidget{
       ),
 
       body: new Center(
-        child: new FadeInImage.memoryNetwork(
-          placeholder: kTransparentImage,
-          image:
-          'https://github.com/flutter/website/blob/master/_includes/code/layout/lakes/images/lake.jpg?raw=true',
-        ),
+        child: new Text("Hello world")
       ),
 
       floatingActionButton: new FloatingActionButton(
